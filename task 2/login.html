@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+
+  <body>
+    <h1>Login Page</h1>
+    <p>Please enter your Email and password</p>
+    <hr />
+    <form action="welcome2page.html">
+      <fieldset>
+        <label for="email"
+          >Email: <input id="email" name="email" type="email" required
+        /></label>
+        <label for="login-password">
+          Password:
+          <input
+            id="login-password"
+            name="login-password"
+            type="password"
+            pattern="[a-z, 0-5]{8,}"
+            title="must be up to 8 characters"
+            required
+        /></label>
+      </fieldset>
+      <section></section>
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
